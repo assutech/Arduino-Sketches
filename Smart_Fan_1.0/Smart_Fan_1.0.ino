@@ -1,3 +1,11 @@
+//A fan that activates or deactivates based on the reading
+//from a temperature sensor
+//Once the system starts, the first readings from the temperature
+//sensor is initialized to the baseTemp the fan activate or the activate 
+//the temperature fall below or above that base temperature.
+
+//Author: Hassan Y Jallow
+//Email: assutech@gmail.com
 
 const int activeLed = 4;//fan is on indicator
 const int standbyLed = 2;//fan on standby indicator
